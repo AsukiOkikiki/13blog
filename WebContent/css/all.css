@@ -1,0 +1,288 @@
+@charset "UTF-8";
+
+a:link, a:hover {
+	text-decoration: none;
+}
+
+p {
+	margin: 10px 0 0;
+	font-family: Hiragino Sans GB;
+	font-size: 15px;
+	line-height: 23px;
+	color: #555555;
+}
+
+body {
+	background: #e3e0cf;
+	padding-top: 100px;
+	font-family: Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB",
+		"Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+}
+
+.index_head {
+	background: #3b3a36;
+	border: none;
+}
+
+#head_logo {
+	color: #e9ece5;
+}
+
+.content_left {
+	padding: 40px;
+	background: #a8b6bf;
+}
+
+.blog {
+	padding: 0;
+	background: #fff;
+	margin-bottom: 40px;
+}
+
+.blog_word {
+	padding-left: 20px;
+	padding-top: 20px;
+	display: inline-block;
+	height: 180px;
+	width: 70%;
+	overflow: hidden;
+}
+
+.blog_photo {
+	cursor: pointer;
+	width: 30%;
+	display: inline-block;
+	float: right;
+	height: 180px;
+}
+
+div img {
+	cursor: pointer;
+	transition: all 0.6s;
+}
+
+div img:hover {
+	transform: scale(1.2);
+}
+
+.blog_title {
+	color: #3b3a36;
+	font-weight: 700;
+	font-size: 28px;
+}
+
+.word_div {
+	height: 47%;
+	overflow: hidden;
+}
+
+.blog_ico {
+	margin-top: 10px;
+	height: 20px;
+	width: 100%;
+}
+
+.blog_foot_style {
+	margin-right: 5px;
+}
+
+.blog_foot_span {
+	margin-right: 15px;
+}
+
+.blog_comment {
+	color: #333;
+}
+
+.content_foot {
+	margin: 0 auto;
+}
+
+.aboutme_content {
+	width: 100%;
+	height: 200px;
+	background: red;
+}
+
+.aboutme_right {
+	background: #a8b6bf;
+	height: 500px;
+	padding: 40px;
+}
+
+.left_logo {
+	cursor: pointer;
+}
+
+.left_menu {
+	margin-top: 50px;
+	width: 100%;
+}
+
+.left_menu ul {
+	padding: 0;
+}
+
+.left_menu h3 {
+	margin-bottom: 25px;
+}
+
+.left_menu ul li {
+	list-style: none;
+	border-bottom: 1px solid #F2F2F2;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.left_menu ul li a {
+	color: #667467;
+}
+
+.search {
+	margin-top: 50px;
+	width: 100%;
+}
+
+.blog_title_div {
+	height: 35px;
+	overflow: hidden;
+}
+
+.blog_page {
+	background: #fff;
+	padding: 40px;
+}
+
+#page_title {
+	color: #444;
+	font-size: 28px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.page_para {
+	width: 100%;
+}
+
+#some_style {
+	color: #333;
+}
+
+.index_foot {
+	background: #1F1F1F;
+	height: 60px;
+	width: 100%;
+}
+
+#text_more {
+	color: #333;
+}
+
+.bgColor {
+	background: #99CCFF;
+}
+
+.login_div {
+	background: #9966CC;
+	border-radius: 10px;
+}
+
+.login_inner {
+	padding: 50px;
+}
+
+.login_line {
+	margin-bottom: 20px;
+}
+
+.edit_text {
+	margin: 0 auto;
+	width: 70%;
+	background: #899DC0;
+	margin-bottom: 50px;
+}
+
+.edit_textarea {
+	width: 100%;
+	min-height: 500px;
+	padding: 20px 80px;
+	font-size: 30px;
+}
+
+.modify_textarea {
+	min-height: 250px;
+	width: 100%;
+}
+
+.modify_titlearea {
+	height: 60px;
+	width: 100%;
+	text-align: center;
+}
+
+#editBlog_bg {
+	background: #899DC0;
+}
+
+.edit_titlearea {
+	text-align: center;
+	font-size: 50px;
+	height: 100px;
+	width: 100%;
+}
+
+.system_cue {
+	text-align: center;
+	color: #d9534f;
+}
+
+.login_btn {
+	float: right;
+}
+
+#nav_div {
+	background: #3b3a36;
+}
+
+.modify_page {
+	height: 800px;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.modify_page_div {
+	float: right;
+}
+
+.modify_page_table {
+	width: 100%;
+}
+
+.modify_page_table tr th, .modify_page_table tr td {
+	border: 1px solid;
+	text-align: center;
+}
+
+.modify_page_text {
+	width: auto;
+}
+
+.modify_page_common {
+	width: 10%;
+}
+
+.modify_page_btm {
+	width: 15%;
+}
+
+.modify_page_id {
+	width: 5%;
+}
+
+.modify_btm_form {
+	display: inline-block;
+}
+
+.modify_aboutme {
+	float: right;
+}

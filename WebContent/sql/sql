@@ -1,0 +1,14 @@
+//数据库
+CREATE DATABASE myblog;
+
+//创建博文表单
+CREATE TABLE blog_text(id int PRIMARY KEY auto_increment,title varchar(50),text text,type varchar(20),author VARCHAR(20) DEFAULT "十三",time VARCHAR(20),visited INT);
+
+//管理员
+create TABLE admin(username varchar(20),password varchar(20)); 
+
+//管理员账号
+insert into admin values ('admin','303006304');
+
+//关于我
+CREATE TABLE aboutme(id int PRIMARY key auto_increment,text text);
